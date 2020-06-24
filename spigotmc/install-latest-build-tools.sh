@@ -29,7 +29,7 @@ mkdir "$INSTALL_DIR/latest"
 
 mkdir .tmp-build
 cd .tmp-build
-wget -O BuildTools.jar "$TOOLS_URL"
+curl "$TOOLS_URL" >> BuildTools.jar
 git config --global --unset core.autocrlf
 java -jar BuildTools.jar --rev "latest"
 
