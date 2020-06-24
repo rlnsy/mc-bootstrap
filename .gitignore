@@ -1,0 +1,4 @@
+spigotmc/installations/*
+spigotmc/servers/*
+!*/**/**/.gitkeep
+vanilla/*
