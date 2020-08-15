@@ -2,3 +2,4 @@ spigotmc/installations/*
 spigotmc/servers/*
 !*/**/**/.gitkeep
 vanilla/*
+papermc/servers/*
